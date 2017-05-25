@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GardenPal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="facebook_app_id">945563975476278</string>
+    <string name="act_meteo">Actual weather</string>
+    <string name="vitesse">Speed</string>
+    <string name="humidite">Humidity</string>
+    <string name="visibilite">Visibility</string>
+    <string name="barometre">Atm. pressure</string>
+    <string name="demain">Tomorrow</string>
+    <string name="nd">No data</string>
+
+    <!-- Météo -->
+    <string name="c_0">TORNADO</string>
+    <string name="c_1">TROPICAL STORM</string>
+    <string name="c_2">HURRICANE</string>
+    <string name="c_3">SEVERE THUNDERSTORMS</string>
+    <string name="c_4">THUNDERSTORMS</string>
+    <string name="c_5">MIXED RAIN AND SNOW</string>
+    <string name="c_6">MIXED RAIN AND SLEET</string>
+    <string name="c_7">MIXED SNOW AND SLEET</string>
+    <string name="c_8">FREEZING DRIZZLE</string>
+    <string name="c_9">DRIZZLE</string>
+    <string name="c_10">FREEZING RAIN</string>
+    <string name="c_11">SHOWERS</string>
+    <string name="c_12">SHOWERS</string>
+    <string name="c_13">SNOW FLURRIES</string>
+    <string name="c_14">LIGHT SNOW SHOWERS</string>
+    <string name="c_15">BLOWING SNOW</string>
+    <string name="c_16">SNOW</string>
+    <string name="c_17">HAIL</string>
+    <string name="c_18">SLEET</string>
+    <string name="c_19">DUST</string>
+    <string name="c_20">FOGGY</string>
+    <string name="c_21">HAZE</string>
+    <string name="c_22">SMOKY</string>
+    <string name="c_23">BLUSTERY</string>
+    <string name="c_24">WINDY</string>
+    <string name="c_25">COLD</string>
+    <string name="c_26">CLOUDY</string>
+    <string name="c_27">MOSTLY CLOUDY</string>
+    <string name="c_28">MOSTLY CLOUDY</string>
+    <string name="c_29">PARTLY CLOUDY</string>
+    <string name="c_30">PARTLY CLOUDY</string>
+    <string name="c_31">CLEAR</string>
+    <string name="c_32">SUNNY</string>
+    <string name="c_33">FAIR</string>
+    <string name="c_34">FAIR</string>
+    <string name="c_35">MIXED RAIN AND HAIL</string>
+    <string name="c_36">HOT</string>
+    <string name="c_37">ISOLATED THUNDERSTORMS</string>
+    <string name="c_38">SCATTERED THUNDERSTORMS</string>
+    <string name="c_39">SCATTERED THUNDERSTORMS</string>
+    <string name="c_40">SCATTERED SHOWERS</string>
+    <string name="c_41">HEAVY SNOW</string>
+    <string name="c_42">SCATTERED SNOW SHOWERS</string>
+    <string name="c_43">HEAVY SNOW</string>
+    <string name="c_44">PARTLY CLOUDY</string>
+    <string name="c_45">THUNDERSHOWERS</string>
+    <string name="c_46">SNOW SHOWERS</string>
+    <string name="c_47">ISOLATED THUNDERSHOWERS</string>
+    <string name="c_3200">NA</string>
+
+
+
+</resources>

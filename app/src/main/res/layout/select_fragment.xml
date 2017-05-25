@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/selectGridView"
+        android:stretchMode="columnWidth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:padding="10dp"
+        android:choiceMode="multipleChoice"
+        android:clickable="false"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#232323"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:id="@+id/addPlant">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/addIcon" />
+
+        <FrameLayout
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#2e2e2e"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"></FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to garden"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/addText" />
+
+    </LinearLayout>
+
+</RelativeLayout>

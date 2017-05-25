@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cal_row"
+    android:layout_width="fill_parent" android:layout_height="80dp" android:orientation="horizontal"
+    android:weightSum="100">
+    <FrameLayout android:layout_width="1dp" android:layout_height="fill_parent"
+        android:background="@android:color/white" />
+    <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="25">
+
+        <ImageView android:id="@+id/cal_plant_col" android:layout_width="fill_parent"
+            android:layout_height="80dp" />
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="0dp" android:layout_height="fill_parent"
+        android:layout_weight="25">
+        <FrameLayout android:layout_width="1dp" android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:gravity="center" android:orientation="vertical" android:weightSum="100">
+
+            <FrameLayout android:id="@+id/cal_col1_seed" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col1_flower" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col1_fruit" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col1_cut" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="0dp" android:layout_height="fill_parent"
+        android:layout_weight="25">
+        <FrameLayout android:layout_width="1dp" android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:gravity="center" android:orientation="vertical" android:weightSum="100">
+
+            <FrameLayout android:id="@+id/cal_col2_seed" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col2_flower" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col2_fruit" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col2_cut" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="0dp" android:layout_height="fill_parent"
+        android:layout_weight="25">
+        <FrameLayout android:layout_width="1dp" android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:gravity="center" android:orientation="vertical" android:weightSum="100">
+
+            <FrameLayout android:id="@+id/cal_col3_seed" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col3_flower" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col3_fruit" android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+
+            <FrameLayout android:id="@+id/cal_col3_cut" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center"
+                android:layout_weight="25" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="1dp" android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+    </FrameLayout>
+
+
+</LinearLayout>
